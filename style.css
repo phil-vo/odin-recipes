@@ -1,0 +1,135 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  background-color: wheat;
+}
+
+body {
+  padding-top: 10px;
+}
+
+#home {
+  text-align: left;
+  border: 2px black dotted;
+  padding: 5px;
+  border-style: outset;
+  margin-bottom: 10px;
+  &:hover {
+    background-color: gold;
+  }
+}
+
+a#home {
+  text-decoration: none;
+}
+
+h1 {
+  border: 2px black;
+  text-align: center;
+}
+
+.food-title {
+  display: block;
+  padding: 0px;
+  border: 2px tomato solid;
+  margin: 10px auto -0px;
+}
+
+.food-title.lasagna {
+  background-color: orange;
+}
+
+.food-title.bun-bo-hue {
+  background-color: rgb(161, 38, 0);
+  border-color: maroon;
+}
+
+.food-title.pho {
+  background-color: whitesmoke;
+  border-color: forestgreen;
+}
+
+.food-pic {
+  margin: 10px;
+  margin-left: auto;
+  display: inline-block;
+  width: 650px;
+  height: 487.5px;
+}
+
+#credit {
+  margin-top: -40px;
+  color: azure;
+}
+
+#credit a {
+  background-color: transparent;
+  color: aqua;
+}
+
+#description {
+  border: 2px solid peru;
+  padding: 10px auto 10px;
+  margin-left: auto;
+  margin-right: 25px;
+  margin-top: -495px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 600px;
+  height: 487.5px;
+  font-size: x-large;
+}
+
+#description h2 {
+  color: peru;
+}
+
+#description p {
+  color: darkgoldenrod;
+}
+
+#ingredients {
+  display: inline-block;
+  border: 2px solid lawngreen;
+  padding: 10px;
+  margin-top: 0px;
+  width: 650px;
+  height: auto;
+}
+
+#ingredients h2 {
+  color: cornflowerblue;
+}
+
+#ingredients ul {
+  padding-left: 20px;
+  padding-right: 0px;
+  list-style: square;
+}
+
+#ingredients li {
+  text-align: left;
+  color: olive;
+}
+
+#steps {
+  display: inline-block;
+  width: 600px;
+  height: auto;
+  padding-right: 0px;
+  border: 2px solid thistle;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: 35px;
+  margin-bottom: auto;
+}
+
+#steps h2 {
+  text-align: center;
+  color: teal;
+}
+
+#steps li {
+  list-style: lower-roman;
+  color: slateblue;
+}

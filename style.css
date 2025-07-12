@@ -8,6 +8,42 @@ body {
   padding-top: 10px;
 }
 
+#home-title {
+  color: orchid;
+}
+
+#recipes {
+  border: 2px solid blueviolet;
+  width: 200px;
+  height: 700px;
+  font-size: large;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  list-style: none;
+}
+
+#lasagna-link,
+#bbh-link,
+#pho-link {
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  text-align: center;
+}
+
+#lasagna-link {
+  border-bottom: 4px dotted coral;
+}
+
+#bbh-link {
+  border-bottom: 4px dotted firebrick;
+}
+
+#pho-link {
+  border-bottom: 4px dotted darkgreen;
+}
+
 #home {
   text-align: left;
   border: 2px black dotted;
@@ -17,9 +53,6 @@ body {
   &:hover {
     background-color: gold;
   }
-}
-
-a#home {
   text-decoration: none;
 }
 
